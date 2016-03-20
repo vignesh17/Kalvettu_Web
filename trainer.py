@@ -1,3 +1,5 @@
+# Based on http://stackoverflow.com/a/9620295/3638128
+
 from dictionary import digit_to_letter, letter_to_digit
 import sys
 
