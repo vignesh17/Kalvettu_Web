@@ -4,8 +4,8 @@ import sys
 import numpy as np
 import cv2
 
-for number in range(1, 11):
-	filename = str(number) + '.jpg'
+for number in range(0, 11):
+	filename =  '7.jpg'
 	print 'Opening %s' % filename
 	im = cv2.imread('samples/' + filename)
 	im2 = im.copy()
@@ -26,7 +26,7 @@ for number in range(1, 11):
 	        [x,y,w,h] = cv2.boundingRect(cnt)
 	        im = cv2.imread('samples/' + filename)
 
-	        if h > 10:
+	        if h > 20:
 	            cv2.rectangle(im,(x,y),(x+w,y+h),(0,0,255),2)
 	            roi = thresh[y:y+h,x:x+w]
 	            roismall = cv2.resize(roi,(10,10))
@@ -56,3 +56,4 @@ for number in range(1, 11):
 	        np.savetxt(file, responses)
 	else:
 	    pass
+	break
