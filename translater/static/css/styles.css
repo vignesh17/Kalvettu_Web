@@ -1,0 +1,33 @@
+.image-form-col {
+    margin-top: 75px;
+}
+
+img#temporary {
+    width: 600px;
+}
+
+.preview-image {
+	margin-top: 75px;
+}
+
+input#image-submit {
+    float: right;
+    margin-top: -40px;
+}
+
+input#image-preview {
+    margin-left: 10px;
+}
+
+.form-group {
+    line-height: 2.5em;
+}
+
+.row.image-examples {
+    display: -webkit-box;
+}
+
+.example-img {
+    height: 150px;
+}
+
