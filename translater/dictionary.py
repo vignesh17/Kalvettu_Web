@@ -13,6 +13,7 @@ digit_to_letter = {
 	0.11 : 'oo',
 	0.12 : 'ow',
 	1.0 : 'ka',
+	1.0 : 'க',
 	1.1 : 'kaa',
 	1.2 : 'ki',
 	1.3 : 'kee',
@@ -61,6 +62,7 @@ digit_to_letter = {
 	4.10 : 'nyoo',
 	4.11 : 'nyow',
 	5.0 : 'ta',
+	5.0 : 'ட',
 	5.1 : 'taa',
 	5.2 : 'ti',
 	5.3 : 'tee',
@@ -73,6 +75,7 @@ digit_to_letter = {
 	5.10 : 'too',
 	5.11 : 'tow',
 	6.0 : 'na',
+	6.9 : '	ண',
 	6.1 : 'naa',
 	6.2 : 'ni',
 	6.3 : 'nee',
@@ -89,6 +92,7 @@ digit_to_letter = {
 	7.2 : 'thi',
 	7.3 : 'thee',
 	7.4 : 'thu',
+	7.4 : 'து',
 	7.5 : 'thuu',
 	7.6 : 'they',
 	7.7 : 'theey',
@@ -169,6 +173,7 @@ digit_to_letter = {
 	13.10 : 'loo',
 	13.11 : 'low',
 	14.0 : 'va',
+	14.0 : 'வ',
 	14.1 : 'vaa',
 	14.2 : 'vi',
 	14.3 : 'vee',
@@ -217,6 +222,7 @@ digit_to_letter = {
 	17.10 : 'roo',
 	17.11 : 'row',
 	18.0 : 'na',
+	18.0 : 'ன',
 	18.1 : 'naa',
 	18.2 : 'ni',
 	18.3 : 'nee',
@@ -228,6 +234,8 @@ digit_to_letter = {
 	18.9 : 'no',
 	18.10 : 'noo',
 	18.11 : 'now'
+	
+	
 }
 
 letter_to_digit = { value:key for key, value in digit_to_letter.iteritems() }
